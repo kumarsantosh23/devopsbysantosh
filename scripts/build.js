@@ -1,4 +1,3 @@
-// ...existing code...
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -230,4 +229,3 @@ build().catch(err => {
   console.error(err);
   process.exit(1);
 });
-// ...existing code...
