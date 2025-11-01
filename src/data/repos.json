@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Repository One",
+        "description": "This is a sample repository showcasing DevOps practices.",
+        "url": "https://github.com/username/repo-one"
+    },
+    {
+        "name": "Repository Two",
+        "description": "A project that demonstrates cloud infrastructure setup.",
+        "url": "https://github.com/username/repo-two"
+    },
+    {
+        "name": "Repository Three",
+        "description": "An automation script for CI/CD pipelines.",
+        "url": "https://github.com/username/repo-three"
+    }
+]
