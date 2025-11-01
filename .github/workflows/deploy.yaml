@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies (no deps expected, but allows future packages)
-        run: npm ci
+      # - name: Install dependencies (no deps expected, but allows future packages)
+      #   run: npm ci
 
       - name: Build (copy src → docs and fix paths)
         run: npm run build
