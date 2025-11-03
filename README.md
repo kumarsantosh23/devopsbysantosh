@@ -28,17 +28,15 @@ To run this project locally, follow these steps:
    ```
 2. Navigate to the project directory:
    ```
-   cd devops-cloud-portfolio
+   cd devopsbysantosh
    ```
-3. Open the `src/index.html` file in your web browser to view the website.
+3. run  `npm run build` to build the code locally
+
+4. Once packages are built, run this python command  `python3 -m http.server 8000 --directory docs` locally and access the localhost 8000 to view the website 
 
 ## Deployment
 
 This project is automatically deployed to GitHub Pages using GitHub Actions. Any changes pushed to the main branch will trigger the deployment workflow defined in `.github/workflows/deploy.yml`.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 

@@ -1,27 +1,27 @@
 [
     {
-        "title": "Cloud Infrastructure Automation",
-        "description": "Developed a fully automated cloud infrastructure using Terraform and AWS, enabling rapid deployment of resources.",
-        "link": "https://github.com/username/cloud-infrastructure-automation"
+        "title": "Ansible Playbooks for Automation",
+        "description": "Developed a set of Ansible playbooks to automate server provisioning and application deployment across multiple environments and examples with different ansible resources",
+        "link": "https://github.com/kumarsantosh23/ansibleplaybooks"
     },
     {
-        "title": "CI/CD Pipeline Implementation",
-        "description": "Implemented a CI/CD pipeline using Jenkins and Docker, streamlining the deployment process and reducing time to production.",
-        "link": "https://github.com/username/ci-cd-pipeline"
+        "title": "Basic Docker Project",
+        "description": "this project consists of basic docker project.",
+        "link": "https://github.com/kumarsantosh23/docker"
     },
     {
-        "title": "Monitoring and Logging Solution",
-        "description": "Created a comprehensive monitoring and logging solution using Prometheus and Grafana, improving system reliability and performance.",
-        "link": "https://github.com/username/monitoring-logging-solution"
+        "title": "Terraform code to create EKS cluster",
+        "description": "Terraform code to create EKS cluster with worker nodes and deploy a sample application on the cluster.",
+        "link": "https://github.com/kumarsantosh23/EKS_Project_Katkam"
     },
     {
-        "title": "Serverless Application Development",
-        "description": "Built a serverless application using AWS Lambda and API Gateway, reducing operational costs and improving scalability.",
-        "link": "https://github.com/username/serverless-app"
+        "title": "Kubernetes manifests",
+        "description": "different kubernetes manifests for deploying applications on kubernetes cluster.",
+        "link": "https://github.com/kumarsantosh23/kubernetes"
     },
     {
-        "title": "Kubernetes Cluster Setup",
-        "description": "Set up a Kubernetes cluster on Google Cloud Platform, enabling container orchestration and management for microservices.",
-        "link": "https://github.com/username/kubernetes-cluster"
+        "title": "Sample java project for jenkins",
+        "description": "This is a very basic java project which is used to create jenkins pipeline for building and deploying java applications.",
+        "link": "https://github.com/kumarsantosh23/java-project"
     }
 ]
