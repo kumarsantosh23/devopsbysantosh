@@ -1,42 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps & Cloud Portfolio</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DevOps & Cloud Portfolio — Santosh Kumar</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My DevOps & Cloud Portfolio</h1>
-        <!-- <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav> -->
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Passionate about DevOps and cloud technologies, I specialize in automating processes and improving system reliability.</p>
-        </section>
-        <section>
-            <h2>Featured Projects</h2>
-            <p>Check out my projects to see my work in action.</p>
-            <a href="projects.html">View Projects</a>
-        </section>
-        <section>
-            <h2>contact Details </h2>
-            <p>Click here to get my contact details.</p>
-            <a href="contact.html">Contact details</a>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; Santosh Kumar DevOps & Cloud Portfolio</p>
-    </footer>
-    <script src="js/main.js"></script>
+  <!-- decorative SVG background with tool names -->
+  <div class="bg-art" aria-hidden="true">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="g1" x1="0" x2="1">
+          <stop offset="0" stop-color="#021022"/>
+          <stop offset="1" stop-color="#061827"/>
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#g1)"></rect>
+
+      <!-- floating translucent labels -->
+      <g fill="rgba(255,255,255,0.05)" font-family="Segoe UI, Roboto, Arial" font-weight="700" font-size="48">
+        <text x="50"  y="120" transform="rotate(-18 50,120)">Docker</text>
+        <text x="420" y="80"  transform="rotate(-6 420,80)">Kubernetes</text>
+        <text x="760" y="160" transform="rotate(12 760,160)">Terraform</text>
+        <text x="260" y="320" transform="rotate(-14 260,320)">AWS</text>
+        <text x="980" y="300" transform="rotate(10 980,300)">Jenkins</text>
+        <text x="140" y="520" transform="rotate(6 140,520)">Git</text>
+        <text x="600" y="460" transform="rotate(-8 600,460)">Prometheus</text>
+        <text x="920" y="560" transform="rotate(14 920,560)">Helm</text>
+      </g>
+
+      <!-- soft blobs -->
+      <g opacity="0.12" fill="#08fdd8">
+        <circle cx="180" cy="200" r="140"/>
+        <circle cx="940" cy="140" r="180"/>
+      </g>
+      <g opacity="0.07" fill="#ff8a65">
+        <circle cx="720" cy="540" r="200"/>
+        <circle cx="380" cy="620" r="140"/>
+      </g>
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Santosh Kumar — DevOps & Cloud</h1>
+
+      <nav class="tabs" role="tablist" aria-label="Main tabs">
+        <button class="tab active" role="tab" data-target="about" aria-selected="true">About</button>
+        <button class="tab" role="tab" data-target="projects" aria-selected="false">Projects</button>
+        <button class="tab" role="tab" data-target="contact" aria-selected="false">Contact</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="content">
+    <section id="about" class="panel active" role="tabpanel">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>My name is Santosh Kumar, Welcome to my cloud and DevOps protofilio. I’ve always been curious about how large systems are built and operated — that curiosity led me to learn how applications are hosted, scaled and made resilient. I love technology because it lets me turn ideas into repeatable, reliable systems: automating manual work, improving developer velocity, and reducing risk in production. Real-world challenges at scale pushed me to master cloud platforms, containers and automation; solving those problems taught me to design for reliability, security and cost‑efficiency. Today I focus on building resilient cloud platforms, CI/CD pipelines and Kubernetes-based infrastructure while continuously learning new tools and practices to deliver measurable value. If you or someone needs an outstanding DevOps/Cloud engineer, you are in right place!. hit me up ( You can get my contact info from contacts tab ) if you want to collebrate or need any assistance with the DevOps and cloud technology. Apart from my professional experience, I love watching Tennins and playing tennis (Huge fan of RF) and I love talking to techies and learn from there experience. Below is my glimpse of my professional experience</p>
+         <ul class="experience-points">
+          <li><strong>Cloud & Infra:</strong> Design and operate multi‑cloud infrastructure (AWS, Azure, GCP) — VPC, IAM, EC2, S3, EKS, RDS, Route53 and scalable networking.</li>
+          <li><strong>Infrastructure as Code:</strong> Author reusable Terraform & Terragrunt modules and CloudFormation templates to provision production infrastructure.</li>
+          <li><strong>Containers & Orchestration:</strong> Build and manage containerized platforms (Docker, Kubernetes, OpenShift, KOPS) — cluster design, HA, autoscaling, storage and networking.</li>
+          <li><strong>Application Delivery:</strong> CI/CD automation with Jenkins, GitHub Actions, GitLab CI; created reusable pipeline templates and GitOps workflows using ArgoCD / Flux.</li>
+          <li><strong>Configuration & Automation:</strong> Extensive use of Ansible (playbooks), scripting (Bash, Shell, Python) and artifact management (Artifactory).</li>
+          <li><strong>Service Mesh & Networking:</strong> Experience with Istio and Linkerd for traffic management and nginx-ingress.</li>
+          <li><strong>Observability & Monitoring:</strong> Deploy and operate Datadog, Prometheus, Grafana and ELK — dashboards, alerts, anomaly detection and log aggregation.</li>
+          <li><strong>Security & Reliability:</strong> Implemented IAM least-privilege, KMS encryption, secrets management, RBAC and secure CI/CD practices.</li>
+          <li><strong>Custom Tooling:</strong> Developed automation and custom Terraform modules (Python) to simplify deployments and improve developer experience.</li>
+          <li><strong>Soft Skills & Processes:</strong> Build/release automation, troubleshooting at scale, cross-functional collaboration, and documentation of runbooks and processes.</li>
+          <li><strong>Certifications:</strong> Certified Kubernetes Administrator (CKA) and Linux Foundation training.</li>
+        </ul>
+        <ul class="skills">
+          <li>Clouds: AWS, Azure and GCP</li>  
+          <li>Infrastructure As Code: Terraform</li>
+          <li>Containers & Orchestration: Docker, Kubernetes</li>
+          <li>CI/CD & Automation: GitHub Actions, Jenkins, ArgoCD</li>
+          <li>Observability: Datadog, ELK and Prometheus</li>
+        </ul>
+        <p> <strong>Additional info:</strong> Hit me up if you want to know my projects and realtime implementations</p>
+      </div>
+    </section>
+
+    <!-- <section id="projects" class="panel" role="tabpanel" aria-hidden="true">
+      <div class="card">
+        <h2>Projects</h2>
+        <p>Featured projects (click a project to open the repository or demo):</p>
+        <div id="projects-container"> -->
+          <!-- Build-time injection or client-side render will put content here -->
+          <!-- <p class="muted">Loading projects… (or rebuilt into static HTML by build script)</p> -->
+        <!-- </div>
+      </div>
+    </section> -->
+
+    <section id="projects" class="panel" role="tabpanel" aria-hidden="true">
+      <div class="card">
+        <h2>Projects</h2>
+        <p>Featured Projects (click a project to open the repository or demo):</p>
+        <div id="projects-container">
+          <!-- Build-time injection or client-side render will put content here -->
+         <p>Check out my projects to see my work in action.</p>
+         <a href="projects.html">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel" role="tabpanel" aria-hidden="true">
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Want to collaborate? Reach out:</p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:santosh.devops@gmail.com">santosh.devops@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/kumarsantosh23" target="_blank" rel="noopener">https://github.com/kumarsantosh23</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/santoshkatkam/" target="_blank" rel="noopener">https://www.linkedin.com/in/santoshkatkam/</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <small>© Santosh Kumar — DevOps & Cloud Portfolio</small>
+    </div>
+  </footer>
+
+  <script>
+    // simple accessible tab behavior + hash support
+    (function () {
+      const tabs = document.querySelectorAll('.tab');
+      const panels = document.querySelectorAll('.panel');
+
+      function activate(targetId, pushState = true) {
+        tabs.forEach(t => {
+          const sel = t.dataset.target === targetId;
+          t.classList.toggle('active', sel);
+          t.setAttribute('aria-selected', sel ? 'true' : 'false');
+        });
+        panels.forEach(p => {
+          const show = p.id === targetId;
+          p.classList.toggle('active', show);
+          p.setAttribute('aria-hidden', show ? 'false' : 'true');
+        });
+        if (pushState) {
+          try { history.replaceState(null, '', `#${targetId}`); } catch(e) {}
+        }
+      }
+
+      tabs.forEach(t => {
+        t.addEventListener('click', () => activate(t.dataset.target));
+      });
+
+      // support deep linking
+      const hash = (location.hash || '').replace('#','');
+      if (hash) activate(hash, false);
+    })();
+  </script>
 </body>
 </html>
